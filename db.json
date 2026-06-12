@@ -1,9 +1,9 @@
 {
-  "users": [
+ "users": [
     {
       "id": 1,
-      "name": "Rinki",
-      "email": "rinki@gmail.com",
+      "name": "Rinki Biswas",
+      "email": "demo@gmail.com",
       "password": "123456"
     }
   ],
