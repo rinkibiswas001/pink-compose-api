@@ -1,4 +1,13 @@
 {
+  "users": [
+    {
+      "id": 1,
+      "name": "Rinki",
+      "email": "rinki@gmail.com",
+      "password": "123456"
+    }
+  ],
+  
   "categories": [
     {
       "id": 1,
