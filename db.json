@@ -8,236 +8,215 @@
     }
   ],
   
+ {
   "categories": [
     {
       "id": 1,
-      "name": "Cakes",
-      "icon": "https://cdn-icons-png.flaticon.com/512/2682/2682340.png"
+      "name": "Breakfast",
+      "icon": "https://cdn-icons-png.flaticon.com/512/5787/5787016.png"
     },
     {
       "id": 2,
-      "name": "Donuts",
+      "name": "Lunch",
       "icon": "https://cdn-icons-png.flaticon.com/512/1046/1046784.png"
     },
     {
       "id": 3,
-      "name": "Ice Cream",
-      "icon": "https://cdn-icons-png.flaticon.com/512/3081/3081986.png"
-    },
-    {
-      "id": 4,
-      "name": "Cookies",
-      "icon": "https://cdn-icons-png.flaticon.com/512/541/541732.png"
-    },
-    {
-      "id": 5,
-      "name": "Cupcakes",
+      "name": "Dinner",
       "icon": "https://cdn-icons-png.flaticon.com/512/3075/3075977.png"
     },
     {
-      "id": 6,
-      "name": "Pastries",
-      "icon": "https://cdn-icons-png.flaticon.com/512/5787/5787016.png"
-    },
-    {
-      "id": 7,
-      "name": "Macarons",
-      "icon": "https://cdn-icons-png.flaticon.com/512/5787/5787024.png"
-    },
-    {
-      "id": 8,
-      "name": "Breads",
-      "icon": "https://cdn-icons-png.flaticon.com/512/883/883561.png"
-    }
-  ],
-
-  "products": [
-    {
-      "id": 1,
-      "title": "Chocolate Cake",
-      "description": "Rich chocolate sponge cake",
-      "price": 499,
-      "rating": 4.8,
-      "categoryId": 1,
-      "image": "https://picsum.photos/400/400?1"
-    },
-    {
-      "id": 2,
-      "title": "Vanilla Cake",
-      "description": "Classic vanilla cream cake",
-      "price": 449,
-      "rating": 4.6,
-      "categoryId": 1,
-      "image": "https://picsum.photos/400/400?2"
-    },
-    {
-      "id": 3,
-      "title": "Red Velvet Cake",
-      "description": "Cream cheese layered cake",
-      "price": 599,
-      "rating": 4.9,
-      "categoryId": 1,
-      "image": "https://picsum.photos/400/400?3"
-    },
-
-    {
       "id": 4,
-      "title": "Strawberry Donut",
-      "description": "Fresh strawberry glazed donut",
-      "price": 149,
-      "rating": 4.7,
-      "categoryId": 2,
-      "image": "https://picsum.photos/400/400?4"
+      "name": "Dessert",
+      "icon": "https://cdn-icons-png.flaticon.com/512/2682/2682340.png"
     },
     {
       "id": 5,
-      "title": "Chocolate Donut",
-      "description": "Chocolate coated donut",
-      "price": 129,
-      "rating": 4.5,
-      "categoryId": 2,
-      "image": "https://picsum.photos/400/400?5"
+      "name": "Drinks",
+      "icon": "https://cdn-icons-png.flaticon.com/512/2405/2405479.png"
     },
     {
       "id": 6,
-      "title": "Rainbow Donut",
-      "description": "Colorful sprinkle donut",
-      "price": 159,
-      "rating": 4.8,
-      "categoryId": 2,
-      "image": "https://picsum.photos/400/400?6"
-    },
+      "name": "Snacks",
+      "icon": "https://cdn-icons-png.flaticon.com/512/541/541732.png"
+    }
+  ],
 
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Pancakes",
+      "categoryId": 1,
+      "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=600",
+      "duration": "20 min",
+      "rating": 4.8,
+      "ingredients": [
+        "Flour",
+        "Milk",
+        "Eggs",
+        "Sugar",
+        "Butter"
+      ],
+      "instructions": "Mix ingredients, cook on a pan and serve."
+    },
+    {
+      "id": 2,
+      "title": "Avocado Toast",
+      "categoryId": 1,
+      "image": "https://images.unsplash.com/photo-1603046891744-76e6481c6f39?w=600",
+      "duration": "10 min",
+      "rating": 4.5,
+      "ingredients": [
+        "Bread",
+        "Avocado",
+        "Salt",
+        "Pepper"
+      ],
+      "instructions": "Toast bread and top with mashed avocado."
+    },
+    {
+      "id": 3,
+      "title": "Chicken Biryani",
+      "categoryId": 2,
+      "image": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600",
+      "duration": "45 min",
+      "rating": 4.9,
+      "ingredients": [
+        "Rice",
+        "Chicken",
+        "Spices",
+        "Onion"
+      ],
+      "instructions": "Cook chicken with spices and layer with rice."
+    },
+    {
+      "id": 4,
+      "title": "Veg Fried Rice",
+      "categoryId": 2,
+      "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600",
+      "duration": "25 min",
+      "rating": 4.6,
+      "ingredients": [
+        "Rice",
+        "Vegetables",
+        "Soy Sauce"
+      ],
+      "instructions": "Stir fry vegetables and rice together."
+    },
+    {
+      "id": 5,
+      "title": "Grilled Salmon",
+      "categoryId": 3,
+      "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600",
+      "duration": "35 min",
+      "rating": 4.8,
+      "ingredients": [
+        "Salmon",
+        "Lemon",
+        "Olive Oil"
+      ],
+      "instructions": "Season salmon and grill until cooked."
+    },
+    {
+      "id": 6,
+      "title": "Butter Chicken",
+      "categoryId": 3,
+      "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=600",
+      "duration": "40 min",
+      "rating": 4.9,
+      "ingredients": [
+        "Chicken",
+        "Tomato",
+        "Cream",
+        "Butter"
+      ],
+      "instructions": "Cook chicken in creamy tomato gravy."
+    },
     {
       "id": 7,
-      "title": "Vanilla Ice Cream",
-      "description": "Creamy vanilla scoop",
-      "price": 99,
-      "rating": 4.5,
-      "categoryId": 3,
-      "image": "https://picsum.photos/400/400?7"
+      "title": "Chocolate Cake",
+      "categoryId": 4,
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600",
+      "duration": "60 min",
+      "rating": 4.9,
+      "ingredients": [
+        "Flour",
+        "Cocoa",
+        "Sugar",
+        "Eggs"
+      ],
+      "instructions": "Bake chocolate batter until fluffy."
     },
     {
       "id": 8,
-      "title": "Chocolate Ice Cream",
-      "description": "Rich chocolate flavor",
-      "price": 109,
+      "title": "Cheesecake",
+      "categoryId": 4,
+      "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=600",
+      "duration": "50 min",
       "rating": 4.8,
-      "categoryId": 3,
-      "image": "https://picsum.photos/400/400?8"
+      "ingredients": [
+        "Cream Cheese",
+        "Sugar",
+        "Biscuits"
+      ],
+      "instructions": "Prepare crust and bake cheesecake mixture."
     },
-
     {
       "id": 9,
-      "title": "Choco Cookie",
-      "description": "Crunchy chocolate cookie",
-      "price": 79,
-      "rating": 4.4,
-      "categoryId": 4,
-      "image": "https://picsum.photos/400/400?9"
+      "title": "Mango Smoothie",
+      "categoryId": 5,
+      "image": "https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?w=600",
+      "duration": "5 min",
+      "rating": 4.7,
+      "ingredients": [
+        "Mango",
+        "Milk",
+        "Ice"
+      ],
+      "instructions": "Blend all ingredients until smooth."
     },
     {
       "id": 10,
-      "title": "Butter Cookie",
-      "description": "Fresh butter baked cookie",
-      "price": 89,
+      "title": "Lemon Juice",
+      "categoryId": 5,
+      "image": "https://images.unsplash.com/photo-1621263764928-df1444c5e859?w=600",
+      "duration": "5 min",
       "rating": 4.5,
-      "categoryId": 4,
-      "image": "https://picsum.photos/400/400?10"
+      "ingredients": [
+        "Lemon",
+        "Water",
+        "Sugar"
+      ],
+      "instructions": "Mix lemon juice with chilled water."
     },
-
     {
       "id": 11,
-      "title": "Chocolate Cupcake",
-      "description": "Soft chocolate cupcake",
-      "price": 99,
+      "title": "French Fries",
+      "categoryId": 6,
+      "image": "https://images.unsplash.com/photo-1576107232684-1279f390859f?w=600",
+      "duration": "20 min",
       "rating": 4.6,
-      "categoryId": 5,
-      "image": "https://picsum.photos/400/400?11"
+      "ingredients": [
+        "Potatoes",
+        "Oil",
+        "Salt"
+      ],
+      "instructions": "Deep fry potatoes until golden."
     },
     {
       "id": 12,
-      "title": "Vanilla Cupcake",
-      "description": "Vanilla cream cupcake",
-      "price": 89,
-      "rating": 4.4,
-      "categoryId": 5,
-      "image": "https://picsum.photos/400/400?12"
-    },
-
-    {
-      "id": 13,
-      "title": "Butter Croissant",
-      "description": "Flaky French croissant",
-      "price": 129,
-      "rating": 4.7,
+      "title": "Veg Sandwich",
       "categoryId": 6,
-      "image": "https://picsum.photos/400/400?13"
-    },
-    {
-      "id": 14,
-      "title": "Chocolate Pastry",
-      "description": "Chocolate filled pastry",
-      "price": 149,
-      "rating": 4.8,
-      "categoryId": 6,
-      "image": "https://picsum.photos/400/400?14"
-    },
-
-    {
-      "id": 15,
-      "title": "Strawberry Macaron",
-      "description": "French strawberry macaron",
-      "price": 119,
-      "rating": 4.7,
-      "categoryId": 7,
-      "image": "https://picsum.photos/400/400?15"
-    },
-    {
-      "id": 16,
-      "title": "Chocolate Macaron",
-      "description": "Premium chocolate macaron",
-      "price": 129,
-      "rating": 4.8,
-      "categoryId": 7,
-      "image": "https://picsum.photos/400/400?16"
-    },
-
-    {
-      "id": 17,
-      "title": "White Bread",
-      "description": "Fresh bakery bread",
-      "price": 59,
-      "rating": 4.3,
-      "categoryId": 8,
-      "image": "https://picsum.photos/400/400?17"
-    },
-    {
-      "id": 18,
-      "title": "Brown Bread",
-      "description": "Healthy brown bread",
-      "price": 69,
-      "rating": 4.4,
-      "categoryId": 8,
-      "image": "https://picsum.photos/400/400?18"
-    },
-    {
-      "id": 19,
-      "title": "Garlic Bread",
-      "description": "Toasted garlic bread",
-      "price": 99,
-      "rating": 4.7,
-      "categoryId": 8,
-      "image": "https://picsum.photos/400/400?19"
-    },
-    {
-      "id": 20,
-      "title": "Cheese Bread",
-      "description": "Cheesy baked bread",
-      "price": 119,
-      "rating": 4.8,
-      "categoryId": 8,
-      "image": "https://picsum.photos/400/400?20"
+      "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=600",
+      "duration": "15 min",
+      "rating": 4.5,
+      "ingredients": [
+        "Bread",
+        "Tomato",
+        "Cucumber",
+        "Cheese"
+      ],
+      "instructions": "Layer vegetables between bread slices."
     }
   ]
 }
