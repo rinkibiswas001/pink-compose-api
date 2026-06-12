@@ -1,5 +1,5 @@
 {
- "users": [
+  "users": [
     {
       "id": 1,
       "name": "Rinki Biswas",
@@ -7,8 +7,7 @@
       "password": "123456"
     }
   ],
-  
- {
+
   "categories": [
     {
       "id": 1,
@@ -19,204 +18,9 @@
       "id": 2,
       "name": "Lunch",
       "icon": "https://cdn-icons-png.flaticon.com/512/1046/1046784.png"
-    },
-    {
-      "id": 3,
-      "name": "Dinner",
-      "icon": "https://cdn-icons-png.flaticon.com/512/3075/3075977.png"
-    },
-    {
-      "id": 4,
-      "name": "Dessert",
-      "icon": "https://cdn-icons-png.flaticon.com/512/2682/2682340.png"
-    },
-    {
-      "id": 5,
-      "name": "Drinks",
-      "icon": "https://cdn-icons-png.flaticon.com/512/2405/2405479.png"
-    },
-    {
-      "id": 6,
-      "name": "Snacks",
-      "icon": "https://cdn-icons-png.flaticon.com/512/541/541732.png"
     }
   ],
 
   "recipes": [
-    {
-      "id": 1,
-      "title": "Pancakes",
-      "categoryId": 1,
-      "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=600",
-      "duration": "20 min",
-      "rating": 4.8,
-      "ingredients": [
-        "Flour",
-        "Milk",
-        "Eggs",
-        "Sugar",
-        "Butter"
-      ],
-      "instructions": "Mix ingredients, cook on a pan and serve."
-    },
-    {
-      "id": 2,
-      "title": "Avocado Toast",
-      "categoryId": 1,
-      "image": "https://images.unsplash.com/photo-1603046891744-76e6481c6f39?w=600",
-      "duration": "10 min",
-      "rating": 4.5,
-      "ingredients": [
-        "Bread",
-        "Avocado",
-        "Salt",
-        "Pepper"
-      ],
-      "instructions": "Toast bread and top with mashed avocado."
-    },
-    {
-      "id": 3,
-      "title": "Chicken Biryani",
-      "categoryId": 2,
-      "image": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600",
-      "duration": "45 min",
-      "rating": 4.9,
-      "ingredients": [
-        "Rice",
-        "Chicken",
-        "Spices",
-        "Onion"
-      ],
-      "instructions": "Cook chicken with spices and layer with rice."
-    },
-    {
-      "id": 4,
-      "title": "Veg Fried Rice",
-      "categoryId": 2,
-      "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600",
-      "duration": "25 min",
-      "rating": 4.6,
-      "ingredients": [
-        "Rice",
-        "Vegetables",
-        "Soy Sauce"
-      ],
-      "instructions": "Stir fry vegetables and rice together."
-    },
-    {
-      "id": 5,
-      "title": "Grilled Salmon",
-      "categoryId": 3,
-      "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600",
-      "duration": "35 min",
-      "rating": 4.8,
-      "ingredients": [
-        "Salmon",
-        "Lemon",
-        "Olive Oil"
-      ],
-      "instructions": "Season salmon and grill until cooked."
-    },
-    {
-      "id": 6,
-      "title": "Butter Chicken",
-      "categoryId": 3,
-      "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=600",
-      "duration": "40 min",
-      "rating": 4.9,
-      "ingredients": [
-        "Chicken",
-        "Tomato",
-        "Cream",
-        "Butter"
-      ],
-      "instructions": "Cook chicken in creamy tomato gravy."
-    },
-    {
-      "id": 7,
-      "title": "Chocolate Cake",
-      "categoryId": 4,
-      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600",
-      "duration": "60 min",
-      "rating": 4.9,
-      "ingredients": [
-        "Flour",
-        "Cocoa",
-        "Sugar",
-        "Eggs"
-      ],
-      "instructions": "Bake chocolate batter until fluffy."
-    },
-    {
-      "id": 8,
-      "title": "Cheesecake",
-      "categoryId": 4,
-      "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=600",
-      "duration": "50 min",
-      "rating": 4.8,
-      "ingredients": [
-        "Cream Cheese",
-        "Sugar",
-        "Biscuits"
-      ],
-      "instructions": "Prepare crust and bake cheesecake mixture."
-    },
-    {
-      "id": 9,
-      "title": "Mango Smoothie",
-      "categoryId": 5,
-      "image": "https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?w=600",
-      "duration": "5 min",
-      "rating": 4.7,
-      "ingredients": [
-        "Mango",
-        "Milk",
-        "Ice"
-      ],
-      "instructions": "Blend all ingredients until smooth."
-    },
-    {
-      "id": 10,
-      "title": "Lemon Juice",
-      "categoryId": 5,
-      "image": "https://images.unsplash.com/photo-1621263764928-df1444c5e859?w=600",
-      "duration": "5 min",
-      "rating": 4.5,
-      "ingredients": [
-        "Lemon",
-        "Water",
-        "Sugar"
-      ],
-      "instructions": "Mix lemon juice with chilled water."
-    },
-    {
-      "id": 11,
-      "title": "French Fries",
-      "categoryId": 6,
-      "image": "https://images.unsplash.com/photo-1576107232684-1279f390859f?w=600",
-      "duration": "20 min",
-      "rating": 4.6,
-      "ingredients": [
-        "Potatoes",
-        "Oil",
-        "Salt"
-      ],
-      "instructions": "Deep fry potatoes until golden."
-    },
-    {
-      "id": 12,
-      "title": "Veg Sandwich",
-      "categoryId": 6,
-      "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=600",
-      "duration": "15 min",
-      "rating": 4.5,
-      "ingredients": [
-        "Bread",
-        "Tomato",
-        "Cucumber",
-        "Cheese"
-      ],
-      "instructions": "Layer vegetables between bread slices."
-    }
   ]
 }
