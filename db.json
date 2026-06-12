@@ -9,37 +9,82 @@
   ],
 
   "categories": [
-   {
-      "id": 1,
-      "name": "Breakfast",
-      "icon": "https://cdn-icons-png.flaticon.com/512/5787/5787016.png"
-    },
-    {
-      "id": 2,
-      "name": "Lunch",
-      "icon": "https://cdn-icons-png.flaticon.com/512/1046/1046784.png"
-    },
-    {
-      "id": 3,
-      "name": "Dinner",
-      "icon": "https://cdn-icons-png.flaticon.com/512/3075/3075977.png"
-    },
-    {
-      "id": 4,
-      "name": "Dessert",
-      "icon": "https://cdn-icons-png.flaticon.com/512/2682/2682340.png"
-    },
-    {
-      "id": 5,
-      "name": "Drinks",
-      "icon": "https://cdn-icons-png.flaticon.com/512/2405/2405479.png"
-    },
-    {
-      "id": 6,
-      "name": "Snacks",
-      "icon": "https://cdn-icons-png.flaticon.com/512/541/541732.png"
-    }
-  ],
+  {
+    "id": 1,
+    "name": "Breakfast",
+    "icon": "https://cdn-icons-png.flaticon.com/512/5787/5787016.png"
+  },
+  {
+    "id": 2,
+    "name": "Lunch",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1046/1046784.png"
+  },
+  {
+    "id": 3,
+    "name": "Dinner",
+    "icon": "https://cdn-icons-png.flaticon.com/512/3075/3075977.png"
+  },
+  {
+    "id": 4,
+    "name": "Dessert",
+    "icon": "https://cdn-icons-png.flaticon.com/512/2682/2682340.png"
+  },
+  {
+    "id": 5,
+    "name": "Drinks",
+    "icon": "https://cdn-icons-png.flaticon.com/512/2405/2405479.png"
+  },
+  {
+    "id": 6,
+    "name": "Snacks",
+    "icon": "https://cdn-icons-png.flaticon.com/512/541/541732.png"
+  },
+  {
+    "id": 7,
+    "name": "Salads",
+    "icon": "https://cdn-icons-png.flaticon.com/512/2153/2153788.png"
+  },
+  {
+    "id": 8,
+    "name": "Soups",
+    "icon": "https://cdn-icons-png.flaticon.com/512/2515/2515183.png"
+  },
+  {
+    "id": 9,
+    "name": "Pizza",
+    "icon": "https://cdn-icons-png.flaticon.com/512/3132/3132693.png"
+  },
+  {
+    "id": 10,
+    "name": "Burger",
+    "icon": "https://cdn-icons-png.flaticon.com/512/3075/3075977.png"
+  },
+  {
+    "id": 11,
+    "name": "Pasta",
+    "icon": "https://cdn-icons-png.flaticon.com/512/2718/2718224.png"
+  },
+  {
+    "id": 12,
+    "name": "Seafood",
+    "icon": "https://cdn-icons-png.flaticon.com/512/1046/1046751.png"
+  },
+  {
+    "id": 13,
+    "name": "Indian",
+    "icon": "https://cdn-icons-png.flaticon.com/512/5787/5787070.png"
+  },
+  {
+    "id": 14,
+    "name": "Chinese",
+    "icon": "https://cdn-icons-png.flaticon.com/512/2276/2276931.png"
+  },
+  {
+    "id": 15,
+    "name": "Healthy",
+    "icon": "https://cdn-icons-png.flaticon.com/512/2909/2909762.png"
+  }
+],
 
   "recipes": [
     {
