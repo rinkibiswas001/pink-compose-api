@@ -2,20 +2,233 @@
   "categories": [
     {
       "id": 1,
-      "name": "Cakes"
+      "name": "Cakes",
+      "icon": "https://cdn-icons-png.flaticon.com/512/2682/2682340.png"
     },
     {
       "id": 2,
-      "name": "Cookies"
+      "name": "Donuts",
+      "icon": "https://cdn-icons-png.flaticon.com/512/1046/1046784.png"
+    },
+    {
+      "id": 3,
+      "name": "Ice Cream",
+      "icon": "https://cdn-icons-png.flaticon.com/512/3081/3081986.png"
+    },
+    {
+      "id": 4,
+      "name": "Cookies",
+      "icon": "https://cdn-icons-png.flaticon.com/512/541/541732.png"
+    },
+    {
+      "id": 5,
+      "name": "Cupcakes",
+      "icon": "https://cdn-icons-png.flaticon.com/512/3075/3075977.png"
+    },
+    {
+      "id": 6,
+      "name": "Pastries",
+      "icon": "https://cdn-icons-png.flaticon.com/512/5787/5787016.png"
+    },
+    {
+      "id": 7,
+      "name": "Macarons",
+      "icon": "https://cdn-icons-png.flaticon.com/512/5787/5787024.png"
+    },
+    {
+      "id": 8,
+      "name": "Breads",
+      "icon": "https://cdn-icons-png.flaticon.com/512/883/883561.png"
     }
   ],
+
   "products": [
     {
       "id": 1,
       "title": "Chocolate Cake",
+      "description": "Rich chocolate sponge cake",
       "price": 499,
+      "rating": 4.8,
       "categoryId": 1,
-      "image": "https://picsum.photos/300/300?1"
+      "image": "https://picsum.photos/400/400?1"
+    },
+    {
+      "id": 2,
+      "title": "Vanilla Cake",
+      "description": "Classic vanilla cream cake",
+      "price": 449,
+      "rating": 4.6,
+      "categoryId": 1,
+      "image": "https://picsum.photos/400/400?2"
+    },
+    {
+      "id": 3,
+      "title": "Red Velvet Cake",
+      "description": "Cream cheese layered cake",
+      "price": 599,
+      "rating": 4.9,
+      "categoryId": 1,
+      "image": "https://picsum.photos/400/400?3"
+    },
+
+    {
+      "id": 4,
+      "title": "Strawberry Donut",
+      "description": "Fresh strawberry glazed donut",
+      "price": 149,
+      "rating": 4.7,
+      "categoryId": 2,
+      "image": "https://picsum.photos/400/400?4"
+    },
+    {
+      "id": 5,
+      "title": "Chocolate Donut",
+      "description": "Chocolate coated donut",
+      "price": 129,
+      "rating": 4.5,
+      "categoryId": 2,
+      "image": "https://picsum.photos/400/400?5"
+    },
+    {
+      "id": 6,
+      "title": "Rainbow Donut",
+      "description": "Colorful sprinkle donut",
+      "price": 159,
+      "rating": 4.8,
+      "categoryId": 2,
+      "image": "https://picsum.photos/400/400?6"
+    },
+
+    {
+      "id": 7,
+      "title": "Vanilla Ice Cream",
+      "description": "Creamy vanilla scoop",
+      "price": 99,
+      "rating": 4.5,
+      "categoryId": 3,
+      "image": "https://picsum.photos/400/400?7"
+    },
+    {
+      "id": 8,
+      "title": "Chocolate Ice Cream",
+      "description": "Rich chocolate flavor",
+      "price": 109,
+      "rating": 4.8,
+      "categoryId": 3,
+      "image": "https://picsum.photos/400/400?8"
+    },
+
+    {
+      "id": 9,
+      "title": "Choco Cookie",
+      "description": "Crunchy chocolate cookie",
+      "price": 79,
+      "rating": 4.4,
+      "categoryId": 4,
+      "image": "https://picsum.photos/400/400?9"
+    },
+    {
+      "id": 10,
+      "title": "Butter Cookie",
+      "description": "Fresh butter baked cookie",
+      "price": 89,
+      "rating": 4.5,
+      "categoryId": 4,
+      "image": "https://picsum.photos/400/400?10"
+    },
+
+    {
+      "id": 11,
+      "title": "Chocolate Cupcake",
+      "description": "Soft chocolate cupcake",
+      "price": 99,
+      "rating": 4.6,
+      "categoryId": 5,
+      "image": "https://picsum.photos/400/400?11"
+    },
+    {
+      "id": 12,
+      "title": "Vanilla Cupcake",
+      "description": "Vanilla cream cupcake",
+      "price": 89,
+      "rating": 4.4,
+      "categoryId": 5,
+      "image": "https://picsum.photos/400/400?12"
+    },
+
+    {
+      "id": 13,
+      "title": "Butter Croissant",
+      "description": "Flaky French croissant",
+      "price": 129,
+      "rating": 4.7,
+      "categoryId": 6,
+      "image": "https://picsum.photos/400/400?13"
+    },
+    {
+      "id": 14,
+      "title": "Chocolate Pastry",
+      "description": "Chocolate filled pastry",
+      "price": 149,
+      "rating": 4.8,
+      "categoryId": 6,
+      "image": "https://picsum.photos/400/400?14"
+    },
+
+    {
+      "id": 15,
+      "title": "Strawberry Macaron",
+      "description": "French strawberry macaron",
+      "price": 119,
+      "rating": 4.7,
+      "categoryId": 7,
+      "image": "https://picsum.photos/400/400?15"
+    },
+    {
+      "id": 16,
+      "title": "Chocolate Macaron",
+      "description": "Premium chocolate macaron",
+      "price": 129,
+      "rating": 4.8,
+      "categoryId": 7,
+      "image": "https://picsum.photos/400/400?16"
+    },
+
+    {
+      "id": 17,
+      "title": "White Bread",
+      "description": "Fresh bakery bread",
+      "price": 59,
+      "rating": 4.3,
+      "categoryId": 8,
+      "image": "https://picsum.photos/400/400?17"
+    },
+    {
+      "id": 18,
+      "title": "Brown Bread",
+      "description": "Healthy brown bread",
+      "price": 69,
+      "rating": 4.4,
+      "categoryId": 8,
+      "image": "https://picsum.photos/400/400?18"
+    },
+    {
+      "id": 19,
+      "title": "Garlic Bread",
+      "description": "Toasted garlic bread",
+      "price": 99,
+      "rating": 4.7,
+      "categoryId": 8,
+      "image": "https://picsum.photos/400/400?19"
+    },
+    {
+      "id": 20,
+      "title": "Cheese Bread",
+      "description": "Cheesy baked bread",
+      "price": 119,
+      "rating": 4.8,
+      "categoryId": 8,
+      "image": "https://picsum.photos/400/400?20"
     }
   ]
 }
