@@ -1,0 +1,21 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Cakes"
+    },
+    {
+      "id": 2,
+      "name": "Cookies"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Chocolate Cake",
+      "price": 499,
+      "categoryId": 1,
+      "image": "https://picsum.photos/300/300?1"
+    }
+  ]
+}
