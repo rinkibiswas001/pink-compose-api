@@ -86,181 +86,225 @@
   }
 ],
 
-  "recipes": [
-    {
-      "id": 1,
-      "title": "Pancakes",
-      "categoryId": 1,
-      "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=600",
-      "duration": "20 min",
-      "rating": 4.8,
-      "ingredients": [
-        "Flour",
-        "Milk",
-        "Eggs",
-        "Sugar",
-        "Butter"
-      ],
-      "instructions": "Mix ingredients, cook on a pan and serve."
-    },
-    {
-      "id": 2,
-      "title": "Avocado Toast",
-      "categoryId": 1,
-      "image": "https://images.unsplash.com/photo-1603046891744-76e6481c6f39?w=600",
-      "duration": "10 min",
-      "rating": 4.5,
-      "ingredients": [
-        "Bread",
-        "Avocado",
-        "Salt",
-        "Pepper"
-      ],
-      "instructions": "Toast bread and top with mashed avocado."
-    },
-    {
-      "id": 3,
-      "title": "Chicken Biryani",
-      "categoryId": 2,
-      "image": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600",
-      "duration": "45 min",
-      "rating": 4.9,
-      "ingredients": [
-        "Rice",
-        "Chicken",
-        "Spices",
-        "Onion"
-      ],
-      "instructions": "Cook chicken with spices and layer with rice."
-    },
-    {
-      "id": 4,
-      "title": "Veg Fried Rice",
-      "categoryId": 2,
-      "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600",
-      "duration": "25 min",
-      "rating": 4.6,
-      "ingredients": [
-        "Rice",
-        "Vegetables",
-        "Soy Sauce"
-      ],
-      "instructions": "Stir fry vegetables and rice together."
-    },
-    {
-      "id": 5,
-      "title": "Grilled Salmon",
-      "categoryId": 3,
-      "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600",
-      "duration": "35 min",
-      "rating": 4.8,
-      "ingredients": [
-        "Salmon",
-        "Lemon",
-        "Olive Oil"
-      ],
-      "instructions": "Season salmon and grill until cooked."
-    },
-    {
-      "id": 6,
-      "title": "Butter Chicken",
-      "categoryId": 3,
-      "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=600",
-      "duration": "40 min",
-      "rating": 4.9,
-      "ingredients": [
-        "Chicken",
-        "Tomato",
-        "Cream",
-        "Butter"
-      ],
-      "instructions": "Cook chicken in creamy tomato gravy."
-    },
-    {
-      "id": 7,
-      "title": "Chocolate Cake",
-      "categoryId": 4,
-      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600",
-      "duration": "60 min",
-      "rating": 4.9,
-      "ingredients": [
-        "Flour",
-        "Cocoa",
-        "Sugar",
-        "Eggs"
-      ],
-      "instructions": "Bake chocolate batter until fluffy."
-    },
-    {
-      "id": 8,
-      "title": "Cheesecake",
-      "categoryId": 4,
-      "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=600",
-      "duration": "50 min",
-      "rating": 4.8,
-      "ingredients": [
-        "Cream Cheese",
-        "Sugar",
-        "Biscuits"
-      ],
-      "instructions": "Prepare crust and bake cheesecake mixture."
-    },
-    {
-      "id": 9,
-      "title": "Mango Smoothie",
-      "categoryId": 5,
-      "image": "https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?w=600",
-      "duration": "5 min",
-      "rating": 4.7,
-      "ingredients": [
-        "Mango",
-        "Milk",
-        "Ice"
-      ],
-      "instructions": "Blend all ingredients until smooth."
-    },
-    {
-      "id": 10,
-      "title": "Lemon Juice",
-      "categoryId": 5,
-      "image": "https://images.unsplash.com/photo-1621263764928-df1444c5e859?w=600",
-      "duration": "5 min",
-      "rating": 4.5,
-      "ingredients": [
-        "Lemon",
-        "Water",
-        "Sugar"
-      ],
-      "instructions": "Mix lemon juice with chilled water."
-    },
-    {
-      "id": 11,
-      "title": "French Fries",
-      "categoryId": 6,
-      "image": "https://images.unsplash.com/photo-1576107232684-1279f390859f?w=600",
-      "duration": "20 min",
-      "rating": 4.6,
-      "ingredients": [
-        "Potatoes",
-        "Oil",
-        "Salt"
-      ],
-      "instructions": "Deep fry potatoes until golden."
-    },
-    {
-      "id": 12,
-      "title": "Veg Sandwich",
-      "categoryId": 6,
-      "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=600",
-      "duration": "15 min",
-      "rating": 4.5,
-      "ingredients": [
-        "Bread",
-        "Tomato",
-        "Cucumber",
-        "Cheese"
-      ],
-      "instructions": "Layer vegetables between bread slices."
-    }
-  ]
+  "recipes":[
+  {
+    "id": 1,
+    "title": "Pancakes",
+    "categoryId": 1,
+    "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=600",
+    "duration": "20 min",
+    "ingredients": [
+      "2 cups Flour",
+      "1 cup Milk",
+      "2 Eggs",
+      "2 tbsp Sugar",
+      "Butter"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "Mix flour, sugar, milk and eggs in a bowl.",
+        "image": "https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?w=600"
+      },
+      {
+        "step": 2,
+        "description": "Whisk until smooth.",
+        "image": "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=600"
+      },
+      {
+        "step": 3,
+        "description": "Cook on a hot pan until golden.",
+        "image": "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=600"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Avocado Toast",
+    "categoryId": 1,
+    "image": "https://images.unsplash.com/photo-1603046891744-76e6481c6f39?w=600",
+    "duration": "10 min",
+    "ingredients": [
+      "Bread",
+      "Avocado",
+      "Salt",
+      "Pepper"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "Toast the bread slices.",
+        "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=600"
+      },
+      {
+        "step": 2,
+        "description": "Mash avocado with salt and pepper.",
+        "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600"
+      },
+      {
+        "step": 3,
+        "description": "Spread avocado mixture on toast.",
+        "image": "https://images.unsplash.com/photo-1603046891744-76e6481c6f39?w=600"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Chicken Biryani",
+    "categoryId": 2,
+    "image": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600",
+    "duration": "45 min",
+    "ingredients": [
+      "Rice",
+      "Chicken",
+      "Onion",
+      "Spices"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "Marinate chicken with spices.",
+        "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600"
+      },
+      {
+        "step": 2,
+        "description": "Cook chicken until tender.",
+        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600"
+      },
+      {
+        "step": 3,
+        "description": "Layer rice and chicken and steam.",
+        "image": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Veg Fried Rice",
+    "categoryId": 2,
+    "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600",
+    "duration": "25 min",
+    "ingredients": [
+      "Rice",
+      "Carrot",
+      "Beans",
+      "Soy Sauce"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "Chop vegetables finely.",
+        "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600"
+      },
+      {
+        "step": 2,
+        "description": "Stir fry vegetables.",
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=600"
+      },
+      {
+        "step": 3,
+        "description": "Add rice and soy sauce.",
+        "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Grilled Salmon",
+    "categoryId": 3,
+    "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600",
+    "duration": "35 min",
+    "ingredients": [
+      "Salmon",
+      "Olive Oil",
+      "Lemon"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "Season salmon with lemon and oil.",
+        "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=600"
+      },
+      {
+        "step": 2,
+        "description": "Grill for 15 minutes.",
+        "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Butter Chicken",
+    "categoryId": 3,
+    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=600",
+    "duration": "40 min",
+    "ingredients": [
+      "Chicken",
+      "Tomato",
+      "Cream",
+      "Butter"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "Cook marinated chicken.",
+        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600"
+      },
+      {
+        "step": 2,
+        "description": "Prepare creamy tomato gravy.",
+        "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=600"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Chocolate Cake",
+    "categoryId": 4,
+    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600",
+    "duration": "60 min",
+    "ingredients": [
+      "Flour",
+      "Cocoa",
+      "Sugar",
+      "Eggs"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "Prepare cake batter.",
+        "image": "https://images.unsplash.com/photo-1486427944299-d1955d23e34d?w=600"
+      },
+      {
+        "step": 2,
+        "description": "Bake for 40 minutes.",
+        "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Cheesecake",
+    "categoryId": 4,
+    "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=600",
+    "duration": "50 min",
+    "ingredients": [
+      "Cream Cheese",
+      "Sugar",
+      "Biscuits"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "Prepare biscuit base.",
+        "image": "https://images.unsplash.com/photo-1519915028121-7d3463d20b13?w=600"
+      },
+      {
+        "step": 2,
+        "description": "Bake cheesecake mixture.",
+        "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=600"
+      }
+    ]
+  }
+]
 }
